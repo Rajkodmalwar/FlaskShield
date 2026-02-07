@@ -88,12 +88,16 @@ Real-time security monitoring interface providing:
 ## 📁 Project Structure
 
 ```
-intel-security-mini-lab/
+FlaskShield/
 ├── app.py                  # Main application with security features
 ├── requirements.txt        # Python dependencies
 ├── README.md              # This file
-├── SECURITY.md            # Detailed security documentation
-├── security_assessment.md # Security analysis report
+├── docs/                  # Documentation
+│   ├── SECURITY.md            # Detailed security documentation
+│   ├── security_assessment.md # Security analysis report
+│   ├── TESTING.md             # Testing guide
+│   ├── PROJECT_SUMMARY.md     # Project overview
+│   └── GITHUB_SETUP.md        # GitHub setup guide
 └── logs/
     ├── security.log       # Security events log
     └── access.log         # Access pattern log
@@ -109,8 +113,8 @@ intel-security-mini-lab/
 
 1. **Clone the repository**
 ```bash
-git clone <repository-url>
-cd intel-security-mini-lab
+git clone https://github.com/Rajkodmalwar/FlaskShield.git
+cd FlaskShield
 ```
 
 2. **Create virtual environment**
@@ -279,9 +283,11 @@ After building/studying this project, you understand:
 
 For detailed information, see:
 
-- **[SECURITY.md](SECURITY.md)** - Deep dive into security architecture, implementation details, and interview preparation guide
-- **[TESTING.md](TESTING.md)** - Complete test suite with PowerShell commands for all security features
-- **[GITHUB_SETUP.md](GITHUB_SETUP.md)** - Step-by-step guide for setting up GitHub repository
+- **[SECURITY.md](docs/SECURITY.md)** - Deep dive into security architecture, implementation details, and interview preparation guide
+- **[TESTING.md](docs/TESTING.md)** - Complete test suite with PowerShell commands for all security features
+- **[security_assessment.md](docs/security_assessment.md)** - Comprehensive security analysis and threat modeling
+- **[PROJECT_SUMMARY.md](docs/PROJECT_SUMMARY.md)** - Quick project overview and key features
+- **[GITHUB_SETUP.md](docs/GITHUB_SETUP.md)** - Step-by-step guide for setting up GitHub repository
 
 ## 🤝 Contributing
 
